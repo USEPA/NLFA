@@ -1,0 +1,122 @@
+<%@ master language="VB" inherits="Site, App_Web_site.master.cdcab7d2" %>
+<%@ Register Assembly="DevExpress.Web.v10.1, Version=10.1.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxRoundPanel" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v10.1, Version=10.1.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxEditors.v10.1, Version=10.1.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- EPA Template, OneEPA Web, 17 November 2010 -->
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>National Listing of Fish Advisories | US Environmental Protection Agency</title>
+    <meta name="DC.description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="DC.title" content="" />
+    <meta name="DC.type" content="" />
+    <meta name="DC.Subject.epachannel" content="" />
+    <meta name="DC.Subject.epabrm" content="" />
+    <meta name="DC.Subject.epacat" content="" />
+    <meta name="DC.Subject.epaect" content="" />
+    <meta name="DC.Subject.epaemt" content="" />
+    <meta name="DC.Subject.epahealth" content="" />
+    <meta name="DC.Subject.epaindustry" content="" />
+    <meta name="DC.Subject.epaopt" content="" />
+    <meta name="DC.Subject.epappt" content="" />
+    <meta name="DC.Subject.eparat" content="" />
+    <meta name="DC.Subject.eparegulation" content="" />
+    <meta name="DC.Subject.eparit" content="" />
+    <meta name="DC.Subject.epasubstance" content="" />
+    <meta name="DC.audience" content="" />
+    <meta name="DC.coverage" content="" />
+    <meta name="DC.date.created" content="" />
+    <meta name="DC.date.modified" content="" />
+    <meta name="DC.date.archivedate" content="" />
+    <meta name="DC.creator" content="US EPA" />
+    <meta name="DC.language" content="en" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+    <!--RSS Feeds -->
+    <link rel="meta" href="http://www.epa.gov/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+    <link rel="alternate" type="application/atom+xml" title="EPA.gov News" href="http://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews" />
+    <link rel="alternate" type="application/atom+xml" title="EPA.gov Headquarters Press Releases" href="http://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&location=Headquarters" />
+    <link rel="alternate" type="application/atom+xml" title="Greenversations, EPA's Blog" href="http://blog.epa.gov/blog/feed/" />
+
+    <!-- ALL PAGE STYLES BELOW THIS LINE -->
+    <link rel="stylesheet" href="https://www3.epa.gov/epafiles/templates/webcms/css/epa.css" />
+    <!--[if IE 7]><link rel="stylesheet" href="https://www3.epa.gov/epafiles/templates/webcms/css/ie7.css"/><![endif]-->
+    <!--[if lt IE 7]><link rel="stylesheet" href="https://www3.epa.gov/epafiles/templates/webcms/css/ie6.css"/><![endif]-->
+    <asp:ContentPlaceHolder id="cpStyles" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <!-- ALL SCRIPTS BELOW THIS LINE -->
+    <%--<script src="https://www3.epa.gov/epafiles/js/third-party/jquery.js" type="text/javascript"></script>
+    <script src="https://www3.epa.gov/epafiles/js/epa-core-v4.js" type="text/javascript"></script>--%>
+    <asp:ContentPlaceHolder id="cpScripts" runat="server">        
+    </asp:ContentPlaceHolder>
+    
+	<style>
+		h1 {
+			font-size: 3em;
+		}
+	</style>
+	
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src="//www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);})(window,document,"script","dataLayer","GTM-L8ZB");</script>
+  <!-- End Google Tag Manager -->  
+    
+</head>
+<body class="basic wide" style="background:none;">
+    
+	<iframe width="100%" src="header.html" scrolling="no" style="border:none; overflow:hidden;"></iframe>
+	
+    <div id="content">
+		<p style="text-align:right; padding-right:20px; padding-bottom:5px;"><a href="https://www.epa.gov/choose-fish-and-shellfish-wisely/forms/contact-us-about-fish-and-shellfish-consumption">CONTACT US</a></p>
+        <div id="page">
+            <div id="main">
+                <ul id="breadcrumbs">
+                    <li class="first">
+                        <asp:HyperLink ID="lnkNLFAHome" runat="server" Text="<%$ Resources:GlobalResources, NLFAHomeURLText %>" ToolTip="<%$ Resources:GlobalResources, NLFAHomeURLText %>" NavigateUrl="<%$ Resources:GlobalResources, NLFAHomeURL %>"></asp:HyperLink>&nbsp;&raquo;&nbsp;
+                        <asp:ContentPlaceHolder id="cpParentPageLink" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder id="cpPageTitleBreadcrumb" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </li>
+                </ul>
+                <!--googleon: index-->
+                <h1>
+                    <asp:ContentPlaceHolder id="cpPageTitle" runat="server">
+                    </asp:ContentPlaceHolder>
+                </h1>
+                <form id="frmContent" runat="server">
+                    <asp:ContentPlaceHolder id="cpContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </form>
+            </div><!-- /main -->
+            <div id="areanav">
+                <h4 class="skip">Area Navigation</h4>
+                <ul>
+                    <li class="separator"><a href="#">Area Home</a><hr /></li>
+                    <li><a href="#">Subarea Home</a></li>
+                    <li><a href="#">Basic Information</a></li>
+                    <li><a href="#">Where You Live</a></li>
+                    <li><a href="#">Recent Additions</a></li>
+                    <li><a href="#">Area sidebar links go here</a></li>
+                    <li><a href="#">Link #7</a></li>
+                    <li><a href="#">Link #8</a></li>
+                </ul>
+            </div><!-- /area-nav -->
+        </div><!-- /page -->
+    </div><!-- /content -->
+    
+	<iframe width="100%" height="500" src="footer.html" scrolling="no" style="border:none; overflow:hidden;"></iframe>
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-L8ZB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager -->  
+  
+</body>
+
+</html>
