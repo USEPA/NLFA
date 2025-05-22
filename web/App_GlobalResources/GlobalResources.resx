@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvisoriesDefinitionsToolTip" xml:space="preserve">
+    <value>Show Definition of Advisory Terms document</value>
+  </data>
+  <data name="AdvisoriesDefinitionsUrl" xml:space="preserve">
+    <value>~/docs/NLFA_Advisories_Where_You_Live_User_Guide.pdf#nameddest=terms</value>
+  </data>
+  <data name="ADVISORY_Caption" xml:space="preserve">
+    <value>Advisory name</value>
+  </data>
+  <data name="ADVISORY_EXTENT_Caption" xml:space="preserve">
+    <value>Adv. extent</value>
+  </data>
+  <data name="ADVISORY_EXTENT_ToolTip" xml:space="preserve">
+    <value>Advisory extent</value>
+  </data>
+  <data name="ADVISORY_SIZE_Caption" xml:space="preserve">
+    <value>Adv. size</value>
+  </data>
+  <data name="ADVISORY_SIZE_ToolTip" xml:space="preserve">
+    <value>Advisory size: The size of the area affected by the advisory.  The size units depend on the type of waterbody and are noted in the Advisory Report table (for example, rivers are measured in linear miles and lakes are measured in acres, while coastalines are measured in linear miles and estuaries are measured in square miles).  Size values are provided by the issuer of the advisory or, if not available, values are calculated by geographic mapping applications.</value>
+  </data>
+  <data name="ADVISORY_SIZE_UNIT_Caption" xml:space="preserve">
+    <value>Adv. size unit</value>
+  </data>
+  <data name="ADVISORY_STATUS_Caption" xml:space="preserve">
+    <value>Advisory status</value>
+  </data>
+  <data name="ADVISORY_STATUS_ToolTip" xml:space="preserve">
+    <value>Advisory status: Advisories can be either Active (in effect as of the date given) or Rescinded (meaning they are no longer in effect and are provided in the NLFA solely for historical purposes).</value>
+  </data>
+  <data name="ADVISORY_ToolTip" xml:space="preserve">
+    <value>Advisory name: This is the name of the waterbody on which the advisory has been placed.</value>
+  </data>
+  <data name="ADVNUM_Caption" xml:space="preserve">
+    <value>Advisory #</value>
+  </data>
+  <data name="ADVNUM_Instructions" xml:space="preserve">
+    <value>Click on link to view Advisory on map</value>
+  </data>
+  <data name="ADVNUM_ToolTip" xml:space="preserve">
+    <value>Advisory number: This is a unique ID code for each advisory used only by the EPA to track changes in advisories over time.</value>
+  </data>
+  <data name="ADV_TYPE_Caption" xml:space="preserve">
+    <value>Adv. type</value>
+  </data>
+  <data name="ADV_TYPE_ToolTip" xml:space="preserve">
+    <value>Advisory type: The type of waterbody affected by the advisory (for example, lake, river, estuary, or coast).  Also denotes whether the advisory covers a single waterbody, or all waterbodies in a specific state or region of the state (statewide or regionwide).</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Clear filter</value>
+  </data>
+  <data name="CONTACT_NAME_Caption" xml:space="preserve">
+    <value>Contact name</value>
+  </data>
+  <data name="CONTACT_NAME_Instructions" xml:space="preserve">
+    <value>Click on link to email contact</value>
+  </data>
+  <data name="CONTACT_NAME_ToolTip" xml:space="preserve">
+    <value>Contact name</value>
+  </data>
+  <data name="CURRENT_AS_OF_Caption" xml:space="preserve">
+    <value>Current as of *</value>
+  </data>
+  <data name="CURRENT_AS_OF_ToolTip" xml:space="preserve">
+    <value>Information for advisories is current as of the date listed. Please see State websites for the most current information.</value>
+  </data>
+  <data name="DATE_RESCINDED_Caption" xml:space="preserve">
+    <value>Date rescinded</value>
+  </data>
+  <data name="DATE_RESCINDED_ToolTip" xml:space="preserve">
+    <value>Date rescinded</value>
+  </data>
+  <data name="EMAIL_Caption" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ExportFilename" xml:space="preserve">
+    <value>USEPA-NLFA-Advisories</value>
+  </data>
+  <data name="ExportFormat" xml:space="preserve">
+    <value>Choose download format:</value>
+  </data>
+  <data name="FilterCaption" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FishTissueDefinitionsToolTip" xml:space="preserve">
+    <value>Show Fish Tissue Data Information and Definition of Terms document</value>
+  </data>
+  <data name="FishTissuePageTitle" xml:space="preserve">
+    <value>EPA - NLFA - NLFA Fish Tissue Search</value>
+  </data>
+  <data name="FishTissueTitle" xml:space="preserve">
+    <value>NLFA Fish Tissue Search</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="GeneralDescription1" xml:space="preserve">
+    <value>This website and search provide historical data on fish advisories in the United States and its territories.  EPA requests fish advisory data from the states, territories, and tribes and updates the NLFA database every 2 years.  The most recent fish advisory data in the NLFA is for 2010 but states may add new advisories or rescind advisories before this data appears in the NLFA database.  Therefore, for the most current fish advisory and meal advice information for your state, please visit your state fish advisory website.</value>
+  </data>
+  <data name="GeneralDescription2" xml:space="preserve">
+    <value>The "Advisories Where You Live Map/Search" is the fastest way for the general public to get fish advisory information on a state/local level.  However, users can obtain more detailed fish advisory information by performing a more advanced search of the database.  To conduct an advanced search, go to the</value>
+  </data>
+  <data name="GeneralPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - Advisories Where You Live Map/Search</value>
+  </data>
+  <data name="GeneralTitle" xml:space="preserve">
+    <value>Advisories Where You Live Map/Search</value>
+  </data>
+  <data name="IncludeDetail" xml:space="preserve">
+    <value>Include detail</value>
+  </data>
+  <data name="ISSUER_Caption" xml:space="preserve">
+    <value>Issuer</value>
+  </data>
+  <data name="ISSUER_ToolTip" xml:space="preserve">
+    <value>Issuer: The government entity issuing the advisory, usually a State, Tribe, or Territory.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapOptionsHeader" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="MapOptionsTitle" xml:space="preserve">
+    <value>Use the checkboxes to show or hide the following options on the map.</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next &gt;</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Pollutant" xml:space="preserve">
+    <value>Pollutant</value>
+  </data>
+  <data name="POLLUTANT_Caption" xml:space="preserve">
+    <value>Pollutant</value>
+  </data>
+  <data name="POLLUTANT_ToolTip" xml:space="preserve">
+    <value>Pollutant</value>
+  </data>
+  <data name="Population" xml:space="preserve">
+    <value>Population</value>
+  </data>
+  <data name="POPULATION_Caption" xml:space="preserve">
+    <value>Population</value>
+  </data>
+  <data name="POPULATION_ToolTip" xml:space="preserve">
+    <value>Population</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Prev &lt;</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>EPA Region</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="TechAdvisoriesReportInstructions" xml:space="preserve">
+    <value>Type into the textboxes or select from the dropdown lists at the top of the report to filter the results.  &lt;b&gt;Click on the plus (+) and minus (-) symbols to the left of each record to view detailed information.&lt;/b&gt;  Click on the advisory number link within each row to go to the advisory on the map.</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset search</value>
+  </data>
+  <data name="ResetToolTip" xml:space="preserve">
+    <value>Reset all search options</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchError" xml:space="preserve">
+    <value>Your search has produced too much data to display on the map. Please refine your search options or view your current search results in the report tab.</value>
+  </data>
+  <data name="SearchMapToolTip" xml:space="preserve">
+    <value>Show search results on map</value>
+  </data>
+  <data name="SearchOptionsHeader" xml:space="preserve">
+    <value>Search Options</value>
+  </data>
+  <data name="SearchReportToolTip" xml:space="preserve">
+    <value>Show search results in report format</value>
+  </data>
+  <data name="ShowDataDefinitions" xml:space="preserve">
+    <value>Show data definitions</value>
+  </data>
+  <data name="SiteErrorDescription1" xml:space="preserve">
+    <value>An unexpected error occurred in the EPA NLFA website.  The website administrator has been notified.</value>
+  </data>
+  <data name="SiteErrorDescription2" xml:space="preserve">
+    <value>Return to the National Listing Of Fish Advisories Home page</value>
+  </data>
+  <data name="SiteErrorPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - Error</value>
+  </data>
+  <data name="SiteErrorReturnUrl" xml:space="preserve">
+    <value>default.aspx</value>
+  </data>
+  <data name="SiteErrorTitle" xml:space="preserve">
+    <value>An Error Occurred</value>
+  </data>
+  <data name="Species" xml:space="preserve">
+    <value>Fish species</value>
+  </data>
+  <data name="SPECIES_Caption" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="SPECIES_SIZE_Caption" xml:space="preserve">
+    <value>Species size</value>
+  </data>
+  <data name="SPECIES_SIZE_ToolTip" xml:space="preserve">
+    <value>Species size</value>
+  </data>
+  <data name="SPECIES_ToolTip" xml:space="preserve">
+    <value>Fish species</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="STATEURL_Caption" xml:space="preserve">
+    <value>State website</value>
+  </data>
+  <data name="STATEURL_ToolTip" xml:space="preserve">
+    <value>State website</value>
+  </data>
+  <data name="STATE_Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="STATE_Instructions" xml:space="preserve">
+    <value>Click on link to go to State website</value>
+  </data>
+  <data name="STATE_ToolTip" xml:space="preserve">
+    <value>State abbreviation</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TechnicalAdvisoriesDescription1" xml:space="preserve">
+    <value>This web page allows the user to perform more advanced searches of the NLFA database.  Using the search options menu, the user can generate results that can either be displayed graphically on the map or presented in a report.  Report results can be downloaded in either Excel or PDF formats.  To download spatial data related to the NLFA fish advisories, please visit the</value>
+  </data>
+  <data name="TechnicalAdvisoriesPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - NLFA Technical Advisories Search</value>
+  </data>
+  <data name="TechnicalAdvisoriesTitle" xml:space="preserve">
+    <value>NLFA Technical Advisories Search</value>
+  </data>
+  <data name="TechnicalAdvisoriesURL" xml:space="preserve">
+    <value>Advisories.aspx</value>
+  </data>
+  <data name="TechnicalAdvisoriesURLText" xml:space="preserve">
+    <value>NLFA Technical Advisories Search</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Advisory type</value>
+  </data>
+  <data name="Waterbody" xml:space="preserve">
+    <value>Waterbody</value>
+  </data>
+  <data name="XLS" xml:space="preserve">
+    <value>XLS</value>
+  </data>
+  <data name="XLSX" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year issued</value>
+  </data>
+  <data name="YEAR_ISSUED_Caption" xml:space="preserve">
+    <value>Year issued</value>
+  </data>
+  <data name="YEAR_ISSUED_ToolTip" xml:space="preserve">
+    <value>Year issued</value>
+  </data>
+  <data name="AdvisoryDetailsPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - Advisory Details</value>
+  </data>
+  <data name="ImageryMap" xml:space="preserve">
+    <value>Imagery Map</value>
+  </data>
+  <data name="ImageryMapToolTip" xml:space="preserve">
+    <value>Change the base map to the imagery map</value>
+  </data>
+  <data name="StreetMap" xml:space="preserve">
+    <value>Street Map</value>
+  </data>
+  <data name="StreetMapToolTip" xml:space="preserve">
+    <value>Change the base map to the street map</value>
+  </data>
+  <data name="AdvisoriesDefinitions" xml:space="preserve">
+    <value>Definition of Advisory Terms</value>
+  </data>
+  <data name="AdvisoryDetails" xml:space="preserve">
+    <value>Advisory Details</value>
+  </data>
+  <data name="AdvisoryDetailsDescription" xml:space="preserve">
+    <value>This report provides historical data regarding this fish advisory. EPA requests fish advisory data from the states, territories, and tribes and updates the NLFA database every 2 years. The most recent fish advisory data in the NLFA is for 2010 but states may add new advisories or rescind advisories before this data appears in the NLFA database. Therefore, for the most current fish advisory information for your state, please visit your state fish advisory website.</value>
+  </data>
+  <data name="AdvisoryDetailsTitle" xml:space="preserve">
+    <value>EPA - NLFA - Advisory Report</value>
+  </data>
+  <data name="FishAdvisory" xml:space="preserve">
+    <value>Fish Advisory</value>
+  </data>
+  <data name="GeneralMapCaption" xml:space="preserve">
+    <value>Click on a state to zoom to it</value>
+  </data>
+  <data name="GeneralOptionsHeader" xml:space="preserve">
+    <value>Select or type in a state below, or click on the map once to select a state and zoom to it on the map. Next, select or type in a waterbody and click the "Search" button.</value>
+  </data>
+  <data name="TechAdvisoriesHelpURLText" xml:space="preserve">
+    <value>View NLFA Technical Advisories help document</value>
+  </data>
+  <data name="TechAdvisoriesHelpURL" xml:space="preserve">
+    <value>~/docs/AdvisoriesHelp.pdf</value>
+  </data>
+  <data name="SafeEatingDescription" xml:space="preserve">
+    <value>*A Safe Eating Guideline means the state has tested fish from these waters and found certain species to be safe to eat for the general public with no restrictions. Restrictions may or may not exist on these waterbodies for subpopulations.  Please see the table below; populations of “No Restriction” or “Unlimited Consumption” are considered as a Safe Eating Guideline for the general public – &lt;b&gt;please see your state website for complete up-to-date details&lt;/b&gt;.</value>
+  </data>
+  <data name="SAFE_EATING_Caption" xml:space="preserve">
+    <value>Does this waterbody include a Safe Eating Guideline*?</value>
+  </data>
+  <data name="StateToolTip" xml:space="preserve">
+    <value>Select or type in a state to zoom to it on the map</value>
+  </data>
+  <data name="WaterbodyMsg" xml:space="preserve">
+    <value>If you do not see your waterbody listed, please see the {0} for the most current fish advisory information.</value>
+  </data>
+  <data name="WaterbodyToolTip" xml:space="preserve">
+    <value>Select or type in a waterbody to zoom to it on the map</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>website</value>
+  </data>
+  <data name="Collapse" xml:space="preserve">
+    <value>Click to collapse row</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Click to expand row and show more detail</value>
+  </data>
+  <data name="FishTissueDefinitions" xml:space="preserve">
+    <value>Fish Tissue Definition of Terms</value>
+  </data>
+  <data name="FishTissueReportInstructions" xml:space="preserve">
+    <value>Type into the textboxes or select from the dropdown lists at the top of the report to filter the results.  &lt;b&gt;Click on the plus (+) and minus (-) symbols to the left of each record to view detailed information.&lt;/b&gt;  Click on the station ID link within each row to go to the station on the map.</value>
+  </data>
+  <data name="FishTissueHelpURL" xml:space="preserve">
+    <value>~/docs/TissueHelp.pdf</value>
+  </data>
+  <data name="FishTissueHelpURLText" xml:space="preserve">
+    <value>View NLFA Fish Tissue help document</value>
+  </data>
+  <data name="GeneralDescription3" xml:space="preserve">
+    <value>For instructions on using this web page, please view the</value>
+  </data>
+  <data name="GeneralUserGuideURL" xml:space="preserve">
+    <value>~/docs/NLFA_Advisories_Where_You_Live_User_Guide.pdf</value>
+  </data>
+  <data name="GeneralUserGuideURLText" xml:space="preserve">
+    <value>Advisories Where You Live Map/Search User Guide</value>
+  </data>
+  <data name="LAT_DD_Caption" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="LAT_DD_ToolTip" xml:space="preserve">
+    <value>Latitude (decimal degrees)</value>
+  </data>
+  <data name="LENGTHUNIT_Caption" xml:space="preserve">
+    <value>Length unit</value>
+  </data>
+  <data name="LENGTHUNIT_ToolTip" xml:space="preserve">
+    <value>Unit of measurement associated with length</value>
+  </data>
+  <data name="LENGTH_Caption" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="LENGTH_ToolTip" xml:space="preserve">
+    <value>Fish length</value>
+  </data>
+  <data name="LOCATION_Caption" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LOCATION_ToolTip" xml:space="preserve">
+    <value>Description of station location</value>
+  </data>
+  <data name="LONG_DD_Caption" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="LONG_DD_ToolTip" xml:space="preserve">
+    <value>Longitude (decimal degrees)</value>
+  </data>
+  <data name="MapResultsTitle" xml:space="preserve">
+    <value>Use the Search Options to perform a search.  The results of your search will be highlighted on the map.</value>
+  </data>
+  <data name="NUM_FISH_Caption" xml:space="preserve">
+    <value>Number of fish</value>
+  </data>
+  <data name="NUM_FISH_ToolTip" xml:space="preserve">
+    <value>Number of fish in this sample</value>
+  </data>
+  <data name="RADURL" xml:space="preserve">
+    <value>http://epamap32.epa.gov/radims</value>
+  </data>
+  <data name="RADURLText" xml:space="preserve">
+    <value>Reach Address Database (RAD) Download</value>
+  </data>
+  <data name="SAMPLEDATE_Caption" xml:space="preserve">
+    <value>Sample date</value>
+  </data>
+  <data name="SAMPLEDATE_ToolTip" xml:space="preserve">
+    <value>Date sample was taken in the field</value>
+  </data>
+  <data name="SAMPLE_ID_Caption" xml:space="preserve">
+    <value>Sample ID</value>
+  </data>
+  <data name="SAMPLE_ID_ToolTip" xml:space="preserve">
+    <value>Unique identifier given to each sample in the database</value>
+  </data>
+  <data name="SITENAME_Caption" xml:space="preserve">
+    <value>Sitename</value>
+  </data>
+  <data name="SITENAME_ToolTip" xml:space="preserve">
+    <value>Name of the site, often the waterbody name</value>
+  </data>
+  <data name="SMPL_TYPE_Caption" xml:space="preserve">
+    <value>Sample type</value>
+  </data>
+  <data name="SMPL_TYPE_ToolTip" xml:space="preserve">
+    <value>Type of sample (for example, fillet or whole fish)</value>
+  </data>
+  <data name="STATION_ID_Caption" xml:space="preserve">
+    <value>Station ID</value>
+  </data>
+  <data name="STATION_ID_Instructions" xml:space="preserve">
+    <value>Click on link to view Station on map</value>
+  </data>
+  <data name="STATION_ID_ToolTip" xml:space="preserve">
+    <value>Unique identifier given to each station in the database</value>
+  </data>
+  <data name="TechnicalAdvisoriesDescription2" xml:space="preserve">
+    <value>page and select a state or watershed and the "Fish Consumption Advisories" Water Program.</value>
+  </data>
+  <data name="FishTissueDescription1" xml:space="preserve">
+    <value>This web page allows the user to perform more advanced searches of the Fish Tissue data in the NLFA database. Using the search option menu, the user can generate results that can either be displayed graphically on the map or presented in a report. Report results can be downloaded in either Excel or PDF formats.</value>
+  </data>
+  <data name="FishTissueDescription2" xml:space="preserve">
+    <value>Please note: EPA does not analyze this data and does not require that the data be gathered in a specific way. EPA simply provides a central 'one-stop' repository as a service to and convenience for the public. Each State determines the scope and extent of monitoring, etc. Consequently, the information is highly variable and makes it difficult to draw conclusions or trends.</value>
+  </data>
+  <data name="FishTissueDetails" xml:space="preserve">
+    <value>Tissue Data Details</value>
+  </data>
+  <data name="FishTissueDetailsPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - Fish Tissue Details</value>
+  </data>
+  <data name="FishTissueDetailsTitle" xml:space="preserve">
+    <value>NLFA Tissue Data Report</value>
+  </data>
+  <data name="SAMPLEDATE_RECENT_Caption" xml:space="preserve">
+    <value>Most recent sample date in NLFA</value>
+  </data>
+  <data name="TissueData" xml:space="preserve">
+    <value>Tissue Data</value>
+  </data>
+  <data name="AdvisoryDetailsHelp" xml:space="preserve">
+    <value>View Detailed Information for an Advisory</value>
+  </data>
+  <data name="AdvisoryDetailsHelpURL" xml:space="preserve">
+    <value>~/docs/NLFA_Advisories_Where_You_Live_User_Guide.pdf#nameddest=detailed</value>
+  </data>
+  <data name="AdvisoryWaterbodyHelp" xml:space="preserve">
+    <value>Find Fish Advisory Information for a Waterbody</value>
+  </data>
+  <data name="AdvisoryWaterbodyHelpURL" xml:space="preserve">
+    <value>~/docs/NLFA_Advisories_Where_You_Live_User_Guide.pdf#nameddest=findfish</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="FishTissueDetailsDescription" xml:space="preserve">
+    <value>This report provides historical data regarding this fish tissue station. EPA requests fish tissue data from the states, territories, and tribes every 2 years; some of this data is then updated in the NLFA database. EPA does not analyze this data and does not require that the data be gathered in a specific way. EPA simply provides a central 'one-stop' repository as a service to and convenience for the public. Please note: Each State determines the scope and extent of monitoring, etc. Consequently, the information is highly variable and makes it difficult to draw conclusions or trends.</value>
+  </data>
+  <data name="LegendTab" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="SearchOptionsTab" xml:space="preserve">
+    <value>Search Options</value>
+  </data>
+  <data name="IdentifyHelp" xml:space="preserve">
+    <value>Click on the map to view advisory information for that location.</value>
+  </data>
+  <data name="ADDRESS_Caption" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AGENCY_Caption" xml:space="preserve">
+    <value>Agency</value>
+  </data>
+  <data name="ContactsLink" xml:space="preserve">
+    <value>NLFA Contacts</value>
+  </data>
+  <data name="ContactsLinkToolTip" xml:space="preserve">
+    <value>View NLFA Contacts page</value>
+  </data>
+  <data name="ContactsLinkURL" xml:space="preserve">
+    <value>Contacts.aspx</value>
+  </data>
+  <data name="ContactsPageTitle" xml:space="preserve">
+    <value>EPA - NLFA - NLFA Contacts</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>NLFA Contacts</value>
+  </data>
+  <data name="MissingWebsiteMessage" xml:space="preserve">
+    <value>Currently no website exists for {0}. For information about fish advisories visit the &lt;a href="http://water.epa.gov/scitech/swguidance/fishshellfish/fishadvisories/index.cfm" target="_blank" title="EPA Fish Advisory website"&gt;EPA Fish Advisory website&lt;/a&gt;.</value>
+  </data>
+  <data name="NAME_Caption" xml:space="preserve">
+    <value>Contact name</value>
+  </data>
+  <data name="PHONE_NUMB_Caption" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="SelectedState" xml:space="preserve">
+    <value>the selected state</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="EPAHomeURL" xml:space="preserve">
+    <value>http://www.epa.gov</value>
+  </data>
+  <data name="EPAHomeURLText" xml:space="preserve">
+    <value>EPA Home</value>
+  </data>
+  <data name="GeneralHomeURL" xml:space="preserve">
+    <value>http://water.epa.gov/scitech/swguidance/fishshellfish/fishadvisories/general.cfm</value>
+  </data>
+  <data name="GeneralHomeURLText" xml:space="preserve">
+    <value>Advisories Where You Live</value>
+  </data>
+  <data name="NLFAHomeURL" xml:space="preserve">
+    <value>http://water.epa.gov/scitech/swguidance/fishshellfish/fishadvisories/</value>
+  </data>
+  <data name="NLFAHomeURLText" xml:space="preserve">
+    <value>National Listing of Fish Advisories</value>
+  </data>
+  <data name="TechnicalHomeURL" xml:space="preserve">
+    <value>http://water.epa.gov/scitech/swguidance/fishshellfish/fishadvisories/technical.cfm</value>
+  </data>
+  <data name="TechnicalHomeURLText" xml:space="preserve">
+    <value>Interactive Technical Maps and Advanced Searches</value>
+  </data>
+  <data name="FAX_Caption" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="GeneralDefinitionsURL" xml:space="preserve">
+    <value>/docs/NLFA_Advisories_Where_You_Live_User_Guide.pdf#nameddest=terms</value>
+  </data>
+  <data name="TechnicalDefinitionsURL" xml:space="preserve">
+    <value>/docs/AdvisoriesHelp.pdf#nameddest=terms</value>
+  </data>
+  <data name="YearSampled" xml:space="preserve">
+    <value>Year sampled</value>
+  </data>
+  <data name="MapTooMuchData" xml:space="preserve">
+    <value>Your search has produced too much data to display on the map. Please refine your search options or view your current search results in the report tab.</value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Your search has produced too much data to download. Please limit the download by refining your search options.</value>
+  </data>
+  <data name="ExportWarning" xml:space="preserve">
+    <value>Please note that downloading data may take several minutes.  If the download does not succeed, limit the export by refining your search options.</value>
+  </data>
+  <data name="MaxRows" xml:space="preserve">
+    <value>20000</value>
+  </data>
+</root>

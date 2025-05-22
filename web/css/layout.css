@@ -1,0 +1,495 @@
+#description
+{
+    border:solid 1px #AAC3D7;
+    margin:5px;
+    padding:10px;
+    padding-bottom:0px;
+}
+#helpLinks
+{
+    position: absolute;
+    right:10px;
+    top:80px;
+}
+#helpLinks table td
+{
+    vertical-align:middle;
+    padding:0 0 0 20px;
+}
+#toggleSearch
+{
+    height:22px;
+    float:right;
+    margin-top:-34px;
+}
+
+#toggleSearch button
+{
+    height:22px;
+    font-size:0.8em;
+    width:27px;
+}
+
+#toggleSearchSpacer
+{
+    height:1px;
+    width:277px;
+}
+
+#legendBody
+{
+    width:100%;
+}
+
+#mapBodyGeneral, #mapBodyAdvisory, #mapBodyTissue
+{
+  color:#151515;
+  font-family:"Lucida Sans";
+  font-size:100%;
+  height:96%;
+  overflow:hidden;
+  width:100%;
+}
+
+#mainWindow, #mainWindowGeneral
+{   
+    width:100%;
+    height:100%;
+}
+
+#mainWindow
+{
+    background-color:#E8EDF1;
+}
+
+#mainWindowGeneral
+{
+    background-color:transparent;
+}
+
+#map
+{
+  background-color:#CEDAE5;
+  border:solid 1px #A4BED1;
+  height:96%;
+  margin:0px;
+  overflow:hidden;
+}
+
+#clickMap
+{
+  background-color:#CEDAE5;
+  border:solid 1px #A4BED1;
+  margin:0;
+  overflow:hidden;
+}
+
+#idResultsBorder, #infoBorderDiv, #waterbodyPopUpDiv
+{
+    color:#151515;
+    display:block;
+    font-family:"Lucida Sans";
+    z-index:1000;
+}
+
+#idResultsBorder, #infoBorderDiv
+{
+    height:210px;
+    width:400px;
+    overflow:auto;
+}
+
+#infoBorderDiv
+{
+    background-color:Transparent;
+}
+
+#idResultsTitle
+{
+    font-family:"Lucida Sans";
+    font-size:0.9em;
+    font-weight: bold;
+}
+
+#idResults
+{
+    font-size:0.9em;
+    margin-left:5px;
+    padding:5px;
+}
+
+#waterbodyPopUpDiv
+{
+    background: url(../images/popup-bg.png) no-repeat 0 0 transparent;
+    width:420px;
+    height:260px;
+    position:absolute;
+    left:65px;
+    top:10px;
+    z-Index:100;
+    overflow:hidden;
+}
+
+#waterbodyPopUpDiv .close
+{
+	background: url(../images/close-default.png) no-repeat 0 0 transparent;
+	cursor: pointer;
+    width: 15px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    left: 405px;
+    top: 0px;
+    z-Index:998;
+}
+
+#waterbodyPopUpDiv .title
+{
+    font-weight:bold;
+    font-size:1.1em;
+    height:15px;
+    line-height:15px;
+    margin:10px 15px 15px 5px;
+    width:400px; 
+}
+
+#waterbodyPopUpDiv .content
+{
+    background-color:#eee;
+    border:0px;
+    height:200px;
+    margin:15px 5px 10px 5px;
+    overflow:auto;
+    padding:5px;
+    width:390px;
+}
+
+#idResults p, #waterbodyPopUpDiv .content p
+{
+    margin:0px;
+    margin-bottom:10px;
+    padding:0px;
+}
+
+#mapFooter
+{
+  font-size:12px;
+  border:solid 1px #999;
+  background:url(../images/chrome_headerbg.png) #9b9b9b repeat-x;
+  -webkit-border-bottom-left-radius:4px;
+  -webkit-border-bottom-right-radius:4px;
+  -moz-border-radius-bottomleft:4px;
+  -moz-border-radius-bottomright:4px;
+  text-align:right;
+  height:18px;
+  margin:0;
+  padding:10px 15px 5px;
+}
+
+.esriScalebar
+{
+  padding-left:15px;
+}
+
+.map .bingLogo-lg
+{
+  left:18px !important;
+}
+
+.shadow
+{  
+    padding:8px; 
+    -moz-border-radius: 6px;  
+    -webkit-border-radius: 6px;  
+    -moz-box-shadow: 0px 6px 3px -3px #888; 
+    -webkit-box-shadow: 0px 6px 3px -3px #888; 
+    /*box-shadow: 0px 6px 3px -3px #888; */ 
+    background-color:white;
+    border: solid 1px #A4BED1; 
+}
+#mapStatus, #queryStatus
+{
+    display:block;
+    font-family:Lucida Sans;
+    font-weight:bold;
+    font-style:italic;
+    height:40px;
+    line-height:40px;
+    padding:10px;
+    position:absolute;
+    width:190px;
+    z-index:2000;
+    
+}
+#queryStatus
+{   
+    left:80px;
+    top:25%;
+}
+#mapStatus
+{
+    left:50%;
+    top:50%;
+}
+.loading
+{
+    cursor:wait;
+}
+#nlfaMenu
+{
+    background:#80959F url(../images/menu-background.png) repeat-x 0 0;
+    border:solid 1px #536067;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:20px;
+    text-align:center;
+    width:650px;
+}
+#nlfaMenu img
+{
+    border:solid 2px #050505;
+    float:right;
+    margin:10px;
+}
+#mainTable
+{
+    float:left;
+}
+#mainTable td
+{
+    color:#fff;
+    padding:10px;
+    text-align:center;
+    vertical-align:top;
+}
+#mainTable td.left
+{
+    padding-bottom:0px;
+    padding-top:20px;
+    text-align:left;
+    vertical-align:bottom;
+}
+#mainTable input
+{
+    font-weight:bold;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:300px;
+}
+#contentTable, #queryTable
+{
+    width:100%;
+}
+#contentTable td.content-left, #contentTable td.content-right
+{
+    padding:5px;
+    vertical-align:top;  
+}
+#contentTable td.content-left
+{
+    width:300px;
+}
+#contentTable td.content-right
+{
+    width:100%;
+}
+#queryTable td
+{
+    font-weight:normal;
+    vertical-align:middle;
+}
+#queryTable td.heading, #queryTable td.button
+{
+    padding: 5px 5px 5px 0px;
+    white-space:nowrap;
+}
+#queryTable td.button
+{
+    padding-top:15px;
+}
+#queryTable td.heading-general
+{
+    padding: 10px 5px 0px 0px;
+    white-space:normal;
+}
+#queryTable td.heading-left
+{
+    padding: 5px 5px 5px 0px;
+    white-space:nowrap;
+    width:30px;
+}
+#queryTable td.legend-container
+{
+    padding-top:10px;
+}
+#queryTable .legend
+{
+    padding: 10px;
+    background-color:#F0F0F0;
+    border:solid 1px #D7D7D7;
+}
+#exportTable
+{
+    
+}
+#exportTable td
+{
+    font-family:Lucida Sans;
+}
+#exportTable td.instructions
+{
+    padding: 5px;
+}   
+#exportTable td.content
+{
+    padding: 5px;
+    white-space:nowrap;
+}
+#exportTable td.contentRight
+{
+    padding: 5px;
+    text-align: right;
+    width:100%;
+    white-space:nowrap;
+}
+#detailTable
+{
+    margin: 10px 20px 10px 0px;
+}
+#detailTable td.content
+{
+    padding:5px;
+}
+.dxgvTable caption 
+{
+    font-family:Lucida Sans;
+}
+.AutoFilterMenu td
+{
+    margin:0px;
+    padding:0px;
+}
+.AutoFilterMenu ul
+{
+    font-family:Lucida Sans;
+    margin:0px;
+    padding:0px;
+}
+.AutoFilterMenu ul li
+{
+    list-style-type:none;
+    list-style-image:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.legendTitle
+{
+    font-size:1.1em;
+    font-weight:bold;
+}
+.legendIndent1
+{
+    padding-left:10px;
+}
+.legendIndent2
+{
+    padding-left:30px;
+}
+.legendTable
+{
+    padding-top:5px;
+}
+.legendTable td, .legendTable td.checkbox
+{
+    padding-right:10px;
+    text-align:left;
+    vertical-align:middle;
+    white-space:normal;
+}
+.legendTable td.checkbox
+{
+    padding-right:0px;
+    width:20px;
+}
+.legendImage
+{
+    vertical-align:middle;
+}
+.divider
+{
+    background-color:#AAC3D7;
+    border-color:#AAC3D7;
+    height:1px;
+}
+#mapCaption
+{
+    height:20px;
+    padding:0px 0px 5px 5px;
+    width:99%;
+}   
+#AdvisoryDetails
+{
+    background-color:#fff;
+    color:#151515;
+    font-family:"Lucida Sans";
+    font-size:0.9em;
+}
+#AdvisoryDetails h1
+{
+    color:#006699;
+}
+#AdvisoryDetails h2
+{
+    color:#006699;
+}
+#AdvisoryDetails hr
+{
+    background-color:#AAC3D7;
+    border-color:#AAC3D7;
+    height:2px;
+    margin-bottom:20px;
+}
+#AdvisoryDetails p
+{
+    font-size:0.9em;
+}
+#AdvisoryDetails .highlight
+{
+    color:#993300;
+}
+#AdvisoryDetails table.summary
+{
+    color:#006699;
+}
+#AdvisoryDetails table.summary td
+{
+    padding:3px;
+}
+#AdvisoryDetails table.summary td.heading
+{
+    font-weight:bold;
+}
+#splitter
+{
+    height:850px;
+	width:100%;
+}
+#left, #right
+{
+	overflow:hidden;
+}
+#right
+{
+    border-bottom:solid 1px #4E4F51;
+}
+.vsplitbar
+{
+    width: 5px;
+	background: url(../images/splitter.png) repeat-y 50% 50% #EEF4F8;
+	/*background-color:#EEF4F8;
+    border-left:solid 1px #AAC3D7;
+	border-right:solid 1px #AAC3D7;*/
+}
